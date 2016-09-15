@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffec58">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map"
+    tools:context="tp2.ca.qc.bdeb.trainer.vue.MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:layout="@layout/abc_action_bar_title_item" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/returnn"
+        android:id="@+id/map_btnRetour"
+        android:layout_weight="1"
+        android:layout_gravity="right"
+        android:layout_marginRight="58dp"
+        android:layout_marginEnd="58dp"
+        android:background="#ff900b"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/map_btnStart" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/playy"
+        android:id="@+id/map_btnStart"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0.0"
+        android:id="@+id/map_txtDistance"
+        android:layout_marginTop="41dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/map_btnRetour"
+        android:layout_alignEnd="@+id/map_btnRetour" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/map_chronometer"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/map_txtDistance"
+        android:layout_alignLeft="@+id/map_btnStart"
+        android:layout_alignStart="@+id/map_btnStart" />
+</RelativeLayout>

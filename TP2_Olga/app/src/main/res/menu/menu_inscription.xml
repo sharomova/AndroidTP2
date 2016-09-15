@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Inscription">
+
+    <item
+        android:id="@+id/history"
+        android:orderInCategory="100"
+        android:title="@string/histoire"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/newactiv"
+        android:title="@string/nouvele">
+
+        <menu android:id="@+id/sousmenu">
+            <item
+                android:id="@+id/user"
+                android:title="@string/user" />
+
+            <item
+                android:id="@+id/race"
+                android:title="@string/race" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/stat"
+        android:title="@string/stat" />
+
+    <item
+        android:id="@+id/partager_menu"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        compat:showAsAction="ifRoom"
+        android:title="@string/partager" />
+
+</menu>

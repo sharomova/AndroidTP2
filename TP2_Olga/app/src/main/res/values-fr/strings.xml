@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trainer</string>
+    <string name="age">Âge</string>
+    <string name="course">Course</string>
+    <string name="calories">Calories :</string>
+    <string name="create_new_race">Creer nouveau cource</string>
+    <string name="cumulative_statistics">Statistique cumulative</string>
+    <string name="create_new_user">Nouveau utilisateur</string>
+    <string name="distance">Distance :</string>
+    <string name="female">Female</string>
+    <string name="histoire">Histoire</string>
+    <string name="male">Male</string>
+    <string name="map">Carte</string>
+    <string name="nom">Nom</string>
+    <string name="nomVide">Entrez votre nom</string>
+    <string name="nouvele">Nouveau</string>
+    <string name="partager">Partager</string>
+    <string name="pas">Pieds :</string>
+    <string name="previous_races">Cources antérieures</string>
+    <string name="race">Cource</string>
+    <string name="returnn">Fermer</string>
+    <string name="select">Choisir la type de cource</string>
+    <string name="start">Commencer!</string>
+    <string name="stat">Statistique</string>
+    <string name="stop">Arrêter!</string>
+    <string name="time">Temps:</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="user">Utilisateur</string>
+    <string name="validated">Validé</string>
+    <string name="valider">Valider</string>
+    <string name="velo">Velo</string>
+</resources>
